@@ -1,0 +1,4 @@
+C:\Users\User\source\repos\EpidemicProject\YearIterator\bin\Debug\YearIterator.dll
+C:\Users\User\source\repos\EpidemicProject\YearIterator\bin\Debug\YearIterator.pdb
+C:\Users\User\source\repos\EpidemicProject\YearIterator\obj\Debug\YearIterator.dll
+C:\Users\User\source\repos\EpidemicProject\YearIterator\obj\Debug\YearIterator.pdb

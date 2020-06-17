@@ -1,0 +1,26 @@
+﻿<Window x:Class="EpidemicDesign.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EpidemicDesign"
+        mc:Ignorable="d"
+        Title="Сравнение на различните епидемии през годините." Height="435" Width="625" Loaded="Window_Loaded">
+    <Grid>
+        <Viewbox Stretch="None" Margin="0,0,0,-0.5"></Viewbox>
+        <TextBlock x:Name="Opening" HorizontalAlignment="Left" Margin="131,30,147,0" TextWrapping="Wrap" Text="2020г. започна лошо за целия свят. Избери период - научи някои факти за световните пандемии и ги сравни с COVID-19. " VerticalAlignment="Top" Width="242" FontFamily="Segoe UI Semibold" TextAlignment="Center"/>
+        <ComboBox x:Name="yearComboBox" HorizontalAlignment="Left" Margin="228,103,0,0" VerticalAlignment="Top" Width="110" Height="25" SelectionChanged="yearComboBox_SelectionChanged" />
+        <TextBlock x:Name="SelectYear" HorizontalAlignment="Left" Margin="158,106,0,0" TextWrapping="Wrap" Text="Избери година:" VerticalAlignment="Top" Width="66" Height="20"/>
+        <TextBlock x:Name="fact2019_2020" HorizontalAlignment="Left" Height="174" Margin="56,182,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="186" Foreground="#FFC60000" Background="#FFF8F8F8"/>
+        <TextBlock x:Name="badFactYear" HorizontalAlignment="Left" Height="174" Margin="267,182,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="186" Foreground="#FFC60000" Background="#FFF8F8F8"/>
+        <Button x:Name="getFactsButton" Content="Сравни" HorizontalAlignment="Left" Margin="151,146,0,0" VerticalAlignment="Top" Width="91" Click="getFactsButton_Click"/>
+        <Button x:Name="addinfo" Content="Добави нов" HorizontalAlignment="Left" Margin="515,182,0,0" VerticalAlignment="Top" Width="75" Click="addInfo_Click"/>
+        <Button x:Name="remove2019_2020fact" Content="Изтрий" HorizontalAlignment="Left" Margin="515,207,0,0" VerticalAlignment="Top" Width="75" Click="remove2019_2020fact_Click"/>
+        <Label x:Name="label2019_2020" Content="2019-2020" HorizontalAlignment="Left" Margin="56,160,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelYear" Content="Избери година" HorizontalAlignment="Left" Margin="267,160,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="reset2019_2020button" Content="Обнови" HorizontalAlignment="Left" Margin="55,361,0,0" VerticalAlignment="Top" Width="50" Click="reset2019_2020button_Click"/>
+        <Button x:Name="next2019_2020button" Content="Следващ" HorizontalAlignment="Left" Margin="105,361,0,0" VerticalAlignment="Top" Width="55" Click="next2019_2020button_Click"/>
+        <Button x:Name="nextFactButton" Content="Следващ" HorizontalAlignment="Left" Margin="316,361,0,0" VerticalAlignment="Top" Width="55" Click="nextFactButton_Click"/>
+        <Button x:Name="resetFactButton" Content="Обнови" HorizontalAlignment="Left" Margin="266,361,0,0" VerticalAlignment="Top" Width="50" Click="resetFactButton_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\EpidemicProject\YearFacts\bin\Debug\YearFacts.dll
+C:\Users\User\source\repos\EpidemicProject\YearFacts\bin\Debug\YearFacts.pdb
+C:\Users\User\source\repos\EpidemicProject\YearFacts\bin\Debug\YearIterator.dll
+C:\Users\User\source\repos\EpidemicProject\YearFacts\bin\Debug\YearIterator.pdb
+C:\Users\User\source\repos\EpidemicProject\YearFacts\obj\Debug\YearFacts.csprojAssemblyReference.cache
+C:\Users\User\source\repos\EpidemicProject\YearFacts\obj\Debug\YearFacts.csproj.CopyComplete
+C:\Users\User\source\repos\EpidemicProject\YearFacts\obj\Debug\YearFacts.dll
+C:\Users\User\source\repos\EpidemicProject\YearFacts\obj\Debug\YearFacts.pdb
